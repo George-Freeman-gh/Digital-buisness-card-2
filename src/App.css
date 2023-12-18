@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-wrapper {
+  width: 317px;
+  height: 780px;
+  background: #1A1B21;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.profile-info > h1,
+.profile-info > h3,
+.profile-info > h4 {
+  margin: 0;
+
+}
+
+.profile-info > h1 {
+  color: #FFF;
+  font-size: 1.563rem;
+  font-size: 700;
+  margin-top: 0.6em;
+}
+
+.profile-info > h3 {
+  color: #F3BF99;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+
+.profile-info > h4  {
+  color: #F5F5F5;
+  font-size: 0.64REM;
+  font-weight: 400;
+  margin-top: 0.8em;
+  
+}
+
+a {
+  text-decoration: none;
+ 
+  border-radius: 6px;
+  width: 115px;
+  font-size: 0.875rem;
+  padding: 9px 13px 9px 11px;
+  
+
+}
+
+.email {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: black;
+
+  
+}
+
+.linkedin {
+  background-color: #5093E2;
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.email-icon, .linkedin-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+
+}
+
+.info-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 20px;
+}
+
+.about-wrapper,
+.interests-wrapper  {
+  padding: 0 2.188em;
+
+}
+
+
+.about-wrapper > h4,
+.interests-wrapper > h4 {
+  font-size: 1rem;
+  color: #F5F5F5;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.about-wrapper > p,
+.interests-wrapper > p {
+  color: #DCDCDC;
+  font-size: 0.64rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 0.4em;
+
+}
+
+.footer-wrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
+  background: #161619;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  align-items: center;
+  
+
+}
+
+.footer-wrapper > a {
+  padding: 0;
+  width: 25px;
+}
+
